@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'exo 2';
+}
+nav,footer,.discount,.primary,.second,.third,.four,.five,.six,.seven{
+    overflow: hidden;
+    
+}
+nav{
+    display: flex;
+    background-color: #FFB22C;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+}
+.logo{
+    margin-left:3rem;
+    font-size:3rem;
+    font-weight: 700;
+}
+
+li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.nav-links{
+ display: flex;
+ justify-content: space-between;
+ gap: 4rem;
+
+
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap :3rem;
+    padding: 1rem;
+    
+}
+.sign-in{
+    
+    padding: 0 1rem 0 1rem;
+}
+.sign-up{
+    background-color: #F3FEB8;
+    height: 2rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+
+}
+.sign-up:hover{
+    background-color: rgb(39, 241, 12);
+}
+.nav-toggle{
+    height:3rem ;
+    width: 3rem;
+    object-fit: contain;
+    display: none;
+}
+
+
+
+
+
+main {
+    top: 20px;
+    overflow-x: hidden;
+  }
+
+.primary{
+ display: flex;
+ height: 32rem;
+ background-color:#E9FF97;
+ border-bottom-left-radius:6rem;
+
+}
+
+.pri-content{
+    width: 50%;
+    padding-left:2rem ;
+    
+    position: relative;
+}
+.pri-heading{
+    font-size:5rem;
+    font-weight: 700;
+}
+.pri{
+    color: #FF4C4C;
+}
+.pri-para{
+    position: absolute;
+    font-size: larger;
+    bottom: 9rem;
+    color: rgb(72, 69, 69);
+}
+.pri-button{
+ position: absolute;  
+ bottom: 4rem;
+ width: 8rem;
+ right:30%; 
+ padding: 0.75rem;
+ border-radius: 12px;
+ border-style: none;
+ background-color:#FFDE4D;
+ font-family: 'exo 2';
+ font-size: 1rem;
+}
+
+button:hover {
+    background-color: rgb(39, 241, 12);
+  }
+
+.pri-img2{
+    height: 100%;
+    width: 150%;
+   object-fit: contain;
+}
+
+
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35rem;
+   
+    position: relative;
+}
+.sec-img{
+    width: 50%;
+}
+
+.sec-content{
+    width: 50%;
+    padding: 1rem;
+}
+.sec-heading{
+    font-size: larger;
+    color: #FF4C4C;
+    font-weight: 700;
+}
+.sec-text{
+    font-size:4rem;
+    font-weight: 700;
+    
+    
+}
+.sec-para{
+    font-size: larger;
+    color: rgb(72, 69, 69);
+}
+.sec-button{
+    background-color: black;
+    width: 8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .75rem;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.sec-img2{
+ height: 34rem;
+    width: 100%;
+   object-fit: contain;
+
+}
+
+
+
+
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    height: 50rem;
+    gap: 5rem;
+    position: relative;
+    
+  
+}
+
+.third-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .third-heading {
+    font-size: larger;
+    color: #FF4C4C;
+    font-weight: 700;
+  }
+  
+  .third-text {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center; 
+     margin-bottom: .75rem; 
+  }
+  
+  .third-para {
+    font-size: larger;
+    color: rgb(72, 69, 69);
+    text-align: center; /* Center the text within the container */
+  }
+  
+.third-cards{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.card1,.card2,.card3,.card4{
+   width: 19rem;
+   height: 24rem;
+   position: relative;
+   box-shadow: 4px 3px 17px rgba(11, 11, 11, 0.2);
+}
+
+/* ------CARDS DESIGN------ */
+.card1-content,.card2-content,.card3-content,.card4-content{
+    padding: 2rem;
+    
+}
+.card1-img,.card2-img,.card3-img,.card4-img{
+    height: 9rem;
+    width:100%;
+    object-fit:contain;
+    position: absolute;
+    top:-3rem;
+    left: -3.25rem;
+    
+}
+.card1-head,.card2-head,.card3-head,.card4-head{
+    position: absolute;
+    top: 40%;
+    font-size:1.75rem ;
+    font-weight: 500;
+}
+.card1-para,.card2-para,.card3-para,.card4-para{
+    position: absolute;
+    bottom: 5rem;
+    font-size: larger;
+    color: rgb(72, 69, 69);
+    text-align: left;
+    padding-right: 1rem;
+}
+
+.discount{
+    background-color: #FF4C4C;
+    margin: 0cm 18rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content:center;
+    /* gap: .5rem; */
+    align-items: center;
+}
+.discount-content{
+    margin: 1.5rem;
+    margin-left: -0.5rem;
+    width: 70%;
+}
+.dis-heading{
+    font-size:1.75rem ;
+    font-weight: 700;
+    color: aliceblue;
+}
+.dis-text{
+    font-size: larger;
+    font-weight: 500;
+    color: azure;
+    margin-top: 8px;
+}
+.dis-button{
+    margin-top: 2rem;
+    background-color: rgb(8, 8, 8);
+    width: 8rem;
+    padding: 0.75rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.dis-img{
+    transform: rotate(-15deg);  
+width: 13rem;
+object-fit:contain;
+}
+
+
+
+.four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+    gap: 3rem;
+    position: relative;
+   
+}
+
+.four-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    /* Remove position: absolute; */
+  }
+  
+  .four-heading {
+    font-size: larger;
+    color: #FF4C4C;
+    font-weight: 700;
+    /* Consider adding margin-bottom for spacing */
+  }
+  
+  .four-text {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center; 
+     margin-bottom: .75rem; /* Center the text within the container */
+  }
+  
+  .four-para {
+    font-size: larger;
+    color: rgb(72, 69, 69);
+    text-align: center; /* Center the text within the container */
+  }
+
+
+
+  /* ----CARDS---- */
+.four-card{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 4rem;
+}
+   
+
+.four-card1,.four-card2,.four-card3{
+    width: 19rem;
+    height: 24rem;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(11, 11, 11, 0.2);
+    border-radius: 12px;
+ }
+
+ .four-card1-content,.four-card2-content,.four-card3-content{
+     padding: 2rem;
+     
+ }
+ .four-card1-img,.four-card2-img,.four-card3-img{
+    border-radius: 12px 12px 0px 0px;
+     height: 60%;
+     width:100%;
+     object-fit:contain;
+     position: absolute; 
+ }
+ .four-card1-head,.four-card2-head,.four-card3-head{
+     position: absolute;
+     bottom: 30%;
+     font-size:1.75rem ;
+     font-weight: 500;
+ }
+ .four-card1-para,.four-card2-para,.four-card3-para{
+     position: absolute;
+     bottom: 4rem;
+     font-size: larger;
+     color: rgb(72, 69, 69);
+     text-align: left;
+     padding-right: 1rem;
+ }
+ 
+ .four-card1-img{
+    background-color: #5dbdf8;
+ }
+ .four-card2-img{
+    background-color: rgb(49, 245, 180);
+ }
+ .four-card3-img{
+    background-color: rgb(29, 96, 155);
+
+ }
+
+
+
+.five{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 25rem;
+    position: relative;
+    background-color: rgb(170, 254, 254);
+    }
+.five-img-container{
+    width: 30%;
+    height: 100%;
+}
+.five-img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.five-content{
+    width: 60%;
+    margin-left:4.5rem;
+}
+.five-heading{
+    font-size: larger;
+    color: #FF4C4C;
+    font-weight: 700;
+}
+.five-text,.six-text{
+    font-size:4rem;
+    font-weight: 700;
+}
+.five-para{
+    font-size: larger;
+    color: rgb(72, 69, 69);
+    margin-top: 1.5rem;
+}
+.five-button{
+    background-color: black;
+    width: 8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .75rem;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.six{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    gap: 12rem;
+    height: 20rem;
+    position: relative;
+    background-color: rgb(254, 170, 173);
+    overflow: hidden;
+    }
+
+.six-img-container{
+        width: 30%;
+        height: 100%;
+        margin-left: 7rem;
+}
+ .six-img{
+    width: 100%; 
+    height: 100%;
+    object-fit: contain;
+}
+.six-content{
+    width: 60%;
+}
+.six-heading{
+    font-size: larger;
+    color: #FF4C4C;
+    font-weight: 700;
+}
+.six-text{
+    font-size:4rem;
+    font-weight: 700;
+}
+.six-para{
+    font-size: larger;
+    color: rgb(72, 69, 69);
+    margin-top: 1.5rem;
+}
+.six-button{
+    background-color: black;
+    width: 8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .75rem;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 1rem;
+} 
+
+
+.seven{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+    gap: 3rem;
+    position: relative;
+   
+}
+
+.seven-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    /* Remove position: absolute; */
+  }
+  
+  .seven-heading {
+    font-size: larger;
+    color: #FF4C4C;
+    font-weight: 700;
+    /* Consider adding margin-bottom for spacing */
+  }
+  
+  .seven-text {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center; 
+     margin-bottom: .75rem;
+  }
+  
+  .seven-para {
+    font-size: larger;
+    color: rgb(72, 69, 69);
+    text-align: center; 
+    margin-bottom: 1.5rem;
+  }
+.seven-card{
+  
+   width: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1.5rem;
+   height: 20rem;
+}
+.seven-card1{
+    width: 50%;
+    height: 18rem;
+    background-color: rgb(20, 20, 20);
+    border-radius: 12px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.2);
+}
+.seven-img1{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+.seven-card1-para,.seven-card2-para,.seven-card3-para{
+    font-size: larger;
+    color: azure;
+   padding-left: .5rem;
+}
+
+.img7-2-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    width: 50%;
+
+}
+.seven-card2,.seven-card3{
+    width: 100%;
+    height: 50%;
+   background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    /* justify-content:center; */
+    border-radius: 6px ;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.2);
+}
+.seven-img2,.seven-img3{
+    width: 30%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 6px 0 0 6px;
+}
+.seven-button{margin-top: 1rem;
+    background-color: black;
+    width: 8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .75rem;
+    border-radius: 12px;
+}
+footer{
+    margin-top: -10rem;
+    display: flex;
+   justify-content: space-around;
+   gap: 3rem;
+   background-color: #141414;
+}
+ .col1-head,.col2-head,.col3-head{
+color: #FF4C4C;
+margin-bottom: .2rem;
+margin-top: 0.5rem;
+ }
+
+ .col1-text,.col2-text,.col3-text{
+    color: rgb(173, 174, 174);
+ }
+.footer-col1-text{
+    background-color: #141414;
+    color: rgb(173, 174, 174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+} 
+
+@media only screen and (max-width: 600px) {
+     .primary{
+       flex-direction: column;
+    }
+}
+    

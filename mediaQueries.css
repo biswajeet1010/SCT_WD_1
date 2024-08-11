@@ -1,0 +1,16 @@
+
+@media  screen and (max-width:991px) {
+    .nav-toggle{
+        display: block;
+        margin-right: 2rem;
+    }
+    .nav-links{
+        display: none;
+    }
+    .third-cards{
+        width:50%;
+        flex-direction: column;
+
+
+    }
+}
